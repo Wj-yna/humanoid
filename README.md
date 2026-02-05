@@ -25,11 +25,11 @@ The `src/` directory includes the core packages that are intended to be built an
 Some contents in this repository are intended for development and testing purposes and are not part of the final runtime system.
 
 ## Contributors
-Zhangyu Fan: 
+Zhangyu Fan: Hardware
 
-Tongbin Hu: 
+Tongbin Hu: Software
 
-Zhe Wang:
+Zhe Wang:Software
 
-Wu jie:
+Wu jie:Software
 
