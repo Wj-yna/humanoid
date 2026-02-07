@@ -58,13 +58,11 @@ right_arm_controller:
 right_gripper_controller:
   ros__parameters:
     joints: [
-      right_gripper1_joint,
-      right_gripper2_joint
+      right_gripper1_joint
     ]
     
     command_interfaces: ["position"]
     state_interfaces: ["position", "velocity"]
-    allow_partial_joints_goal: true
 
 # === 左臂控制器参数 ===
 left_arm_controller:
@@ -85,12 +83,10 @@ left_arm_controller:
 left_gripper_controller:
   ros__parameters:
     joints: [
-      left_gripper1_joint,
-      left_gripper2_joint
+      left_gripper1_joint
     ]
     
     command_interfaces: ["position"]
     state_interfaces: ["position", "velocity"]
-    allow_partial_joints_goal: true
 
 
