@@ -109,12 +109,10 @@ def launch_setup(context: LaunchContext):
         executable="robot_state_publisher",
         name="robot_state_publisher",
         output="screen",
-        parameters=[
-            {"robot_description": 
-                Command([
-                    'xacro ', xacro_path, " use_gazebo:=true",])
-            },
-        ]
+        parameters=[{
+            "robot_description": Command([
+                'xacro ', xacro_path, " use_gazebo:=true"]),
+        }]
     )
     
     # (3) 模型生成器
@@ -284,7 +282,7 @@ def launch_setup(context: LaunchContext):
     
 def generate_launch_description(): 
     return LaunchDescription([
-        SetParameter(name='use_sim_time', value=True),
+        # SetParameter(name='use_sim_time', value=True),
         
         # 声明参数
         DeclareLaunchArgument(
