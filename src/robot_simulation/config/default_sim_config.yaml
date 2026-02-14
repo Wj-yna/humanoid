@@ -33,7 +33,7 @@ nodes_enable:
   # gui应用，未安装可关闭
   GUI_APP:
     all_disable: false
-    rviz2: false
+    rviz2: true
     rqt: true
 
   
