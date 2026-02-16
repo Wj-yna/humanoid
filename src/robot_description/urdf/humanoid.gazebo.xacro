@@ -9,7 +9,7 @@
     </gazebo>
     
     <!-- 头部深度相机（RGB-D） -->
-    <gazebo reference="head_camera_link">
+    <gazebo reference="head_camera_optical_link">
       <sensor name="head_camera" type="rgbd_camera">
         <pose>0 0 0 0 -1.5708 1.5708</pose>
         <always_on>1</always_on>
